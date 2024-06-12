@@ -1,0 +1,10 @@
+finance
++ card aggregate data
+
+    filter by 
+--percent validation
+
+bid logs on the side part of the table
+
+update bid status
+   
