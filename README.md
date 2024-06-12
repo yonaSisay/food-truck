@@ -20,14 +20,14 @@ This Food Truck Recommendation System is a web application designed to help user
 ## Usage
 
 1. **Search for Food Trucks**:
-    - Use the search bar to enter a food type (e.g., "Tacos", "Burgers") or a food truck name.
+    - Use the search bar to enter a food type (e.g., "sandwiches").
     - The application will return a list of food trucks that match your search criteria.
 
 2. **View on Map**:
     - The matching food trucks will be displayed on a map, showing their current locations.
-    - Click on a food truck marker on the map to see more details.
+    - Hover on a food truck marker on the map to see more details.
 
-3. **Browse Food Trucks**:
+3. **Click on list view Browse Food Trucks**:
     - Each food truck will also be displayed as a card .
     - The card will contain information such as the name, food type,
 
