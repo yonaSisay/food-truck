@@ -1,29 +1,43 @@
-# Food Truck Recommender System
-
-This project is a food truck recommender system built using Python and Django + React. The recommender system suggests food trucks to users based on their preferences and current location. It utilizes machine learning techniques such as cosine similarity and nearest neighbors to make personalized recommendations.
+# Food Truck Recommendation System
 
 ## Overview
 
-The recommender system combines user preferences, such as preferred food items, with the geographical proximity of food trucks to the user's location. It ranks food trucks based on their similarity to the user's preferences and their proximity to the user.
-
-## Video Explanations 📽️
-- https://www.loom.com/share/14890a06379c4cff952522ee77de40a3?sid=d61155b9-17a8-44fa-897b-0a7a4359daa9
-- https://www.loom.com/share/86a1c492559d4a6f942779413d51790e?sid=61c5c473-bcd4-4c7e-9314-eb079103b7f8
+This Food Truck Recommendation System is a web application designed to help users find food trucks based on their desired food type. Users can search for specific food types or food truck names and get a list of relevant food trucks. The application also displays the locations of these food trucks on a map, with each truck represented as a card for easy browsing.
 
 ## Features
 
-- **User Preferences:** Users can specify their preferred food items, such as "tacos," "burgers," or "coffee."
-- **Location-Based Recommendations:** The system considers the user's current location to recommend nearby food trucks.
-- **Personalized Recommendations:** Recommendations are personalized based on the user's food preferences.
-- **Filtering Approved Food Trucks:** Only approved food trucks are considered for recommendations, ensuring quality and compliance.
+1. **Search Functionality**: Users can search for food trucks by food type or food truck name.
+2. **Map Integration**: Food trucks are displayed on a map, allowing users to see their locations.
+3. **Card View**: Each food truck is displayed as a card with relevant information 
 
-## How to Run the Project
+## Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript, React
+- **Backend**: Django, DRF
+- **Map Integration**:Leaflet
+
+
+## Usage
+
+1. **Search for Food Trucks**:
+    - Use the search bar to enter a food type (e.g., "Tacos", "Burgers") or a food truck name.
+    - The application will return a list of food trucks that match your search criteria.
+
+2. **View on Map**:
+    - The matching food trucks will be displayed on a map, showing their current locations.
+    - Click on a food truck marker on the map to see more details.
+
+3. **Browse Food Trucks**:
+    - Each food truck will also be displayed as a card .
+    - The card will contain information such as the name, food type,
+
+## How to Run the BackEnd
 
 Follow these steps to run the food truck recommender system:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/manasseh-fikadu/Food_Trucks_Recommender.git
+   git clone https://github.com/yonaSisay/food-truck.git
    ```
 
 2. **Install Dependencies:**
@@ -32,68 +46,25 @@ Follow these steps to run the food truck recommender system:
    cd myproject
    pip install -r requirements.txt
    ```
-
-3. **Prepare the Dataset:**
-   Place the cleaned food truck dataset (`food-truck-data-cleaned.csv`) in the project directory.
-
+   
 4. **Run the Django Server:**
    Start the Django server to run the recommender system.
    ```bash
    python manage.py runserver
    ```
 
-5. **Access the Recommender System:**
-   Once the server is running, access the food truck recommender system through the provided URL (typically `http://localhost:8000/`).
+## Hot To Run The Frontend
 
-## Usage
-
-- **Input Parameters:** Users need to provide their food preferences and current location.
-- **Output:** The system provides a list of recommended food trucks based on the user's preferences and location.
-
-## Frontend
-Sure! Here's a sample README.md file for your project:
-
-### Technologies Used
-
-- React.js
-- Axios for API requests
-- Tailwind CSS for styling
-- Map component: [Leaflet](https://leafletjs.com/)
-
-### Installation
-
-1. Clone the repository:
-
+1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/manasseh-fikadu/Food_Trucks_Recommender.git
+   git clone https://github.com/yonaSisay/food-truck.git
    ```
-
-2. Navigate to the project directory:
-
+2. **Install Dependencies: and run**
+   Navigate to the project directory and install the required dependencies using yarn or npm.
    ```bash
-   cd food-truck-finder
+   cd Front-End
+   yarn
    ```
-
-3. Install dependencies:
-
    ```bash
-   npm install
+   yarn dev
    ```
-
-5. Run the app:
-
-   ```bash
-   npm start
-   ```
-
-6. Open your browser and visit http://localhost:3000 to view the app.
-
-## Contributors
-
-- Minase Fikadu (@manasseh-fikadu)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-# food-truck
-# food-truck
