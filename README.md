@@ -12,7 +12,7 @@ This Food Truck Recommendation System is a web application designed to help user
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript, React
+- **Frontend**: Vue, Tailwind
 - **Backend**: Django, DRF
 - **Map Integration**:Leaflet
 
