@@ -1,6 +1,6 @@
 # Food Truck Recommendation System
+## DEMO VIDEO Click on the image
 
-#Demo
 [![Food Truck Recommendation System Demo](https://img.youtube.com/vi/pWd3DlOJP1g/0.jpg)](https://www.youtube.com/watch?v=pWd3DlOJP1g)
 
 
